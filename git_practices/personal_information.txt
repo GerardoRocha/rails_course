@@ -1,2 +1,6 @@
 Nombre: Gerardo Rocha
 Hobbies: Jugar Futbol
+
+Nombre: Josue Hernandez
+Hobbies: Viajar, salir, ver videos
+Expectativa: Reforzar Git y aprender Ruby On Rails para utilizarlo laboralmente
