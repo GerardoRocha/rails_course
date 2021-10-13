@@ -29,3 +29,17 @@ filtered_array = ary.select { |word| word.length > 3 }
 # 2
 # 3
 # 4
+
+
+hsh = {
+  full_name: {
+    name: 'Gerardo',
+    last_name: 'Rocha',
+  },
+  ocupations: ['Developer', 'Gamer'],
+  age: 32,
+}
+hsh.each { |key, value| p "Key: #{key} - Value: #{value}"}
+# "Key: full_name - Value: {:name=>\"Gerardo\", :last_name=>\"Rocha\"}"
+# "Key: ocupations - Value: [\"Developer\", \"Gamer\"]"
+# "Key: age - Value: 32"
