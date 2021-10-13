@@ -1,2 +1,4 @@
-Nombre: Gerardo Rocha
-Hobbies: Jugar Futbol
+Nombre: Alberto Ortega
+Hobbies: Ver Peliculas
+
+Espectativas del Curso: Aprender lo mas que se pueda de Ruby on Rails y el manejo de Git
