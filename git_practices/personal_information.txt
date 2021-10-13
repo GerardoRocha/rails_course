@@ -1,2 +1,6 @@
 Nombre: Gerardo Rocha
 Hobbies: Jugar Futbol
+
+Nombre: Ernesto Martínez
+Hobbies: Jugar
+Expectativa: Conocer Ruby y su aplicación
