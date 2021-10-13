@@ -1,2 +1,6 @@
 Nombre: Gerardo Rocha
 Hobbies: Jugar Futbol
+
+Nombre: Goku
+Hobbies: Comer
+Expectativa: que el profe mejore su forma de enseñar
