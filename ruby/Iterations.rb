@@ -30,6 +30,15 @@ filtered_array = ary.select { |word| word.length > 3 }
 # 3
 # 4
 
+#Dentro de estas iteraciones podemos utilizar la palabra next para pasar al siguiente valor. Next regresa un valor de nil
+
+ary.each do |word|
+  next if word.length == 2
+  p word.upcase
+end
+# "HOLA"
+# "RUBY"
+# "RAILS"
 
 hsh = {
   full_name: {
