@@ -1,2 +1,6 @@
 Nombre: Gerardo Rocha
 Hobbies: Jugar Futbol
+
+Nombre: Alberto Buso Granados
+Hobbies: reparar celulares
+Expectativa: aprender a manejar las bases de Ruby on Rails 
