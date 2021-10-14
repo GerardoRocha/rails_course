@@ -7,3 +7,10 @@
   # 'Madam'
 # Ejemplo invalido:
 # 'Hello'
+def palindromo(str)
+  str = str.downcase
+  str == str.reverse
+
+end
+
+p palindromo('aga')
