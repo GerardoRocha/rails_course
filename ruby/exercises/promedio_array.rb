@@ -13,7 +13,7 @@
 #     Input: [1,2,15,15,17,11,12,17,17,14,13,15,6,11,8,7] Resultado: 11
 
 def promedio(*califiaciones)
-res = califiaciones.sum / califiaciones.length
-p res
+  res = califiaciones.sum / califiaciones.length
+  #p res
 end
 
