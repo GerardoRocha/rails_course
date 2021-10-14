@@ -11,7 +11,7 @@ p hsh[:ocupacion]
 # => nil
 
 #Como se puede apreciar en el ejemplo por lo regular usamos simbolos como llaves, sin embargo la llave puede ser cualquier valor
-hsh2 = { 'esto es una llave' => 'Este es el valor de la llave' }
+hsh2 = { 'esto es una llave' => 'Este es el valor de la llave' } #hashrocket
 p hsh2['esto es una llave']
 # => "Este es el valor de la llave"
 
@@ -30,7 +30,9 @@ p hsh.key?(:nombre)
 # => true
 
 #En el caso de los hashes los simbolos pueden tener una notacion especial(Solo para los hashes!!)
-hsh3 = { nombre: 'Gerardo', apellido: 'Rocha' }
+# hsh = { :nombre => 'Gerardo', :apellido => 'Rocha' }
+ hsh3 = { nombre: 'Gerardo', apellido: 'Rocha' }
+ hsh3[:nombre]
 
 #Un punto importante a mencionar es que los valores puedes ser cualquier cosa, incluso otro hash
 hsh4 = {
@@ -44,3 +46,9 @@ hsh4 = {
 #para acceder a los valores del siguiente hash se hace de la siguiente forma:
 p hsh4[:full_name][:name]
 # => "Gerardo"
+
+#Para agregar un elemento a un hash se utiliza el metodo []=
+hsh4[:birthday] = '3 of april'
+p hsh4
+
+# Si la llave ya existe dentro del hash el valor sera remplazado
