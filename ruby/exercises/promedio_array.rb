@@ -8,6 +8,12 @@
 #   El arreglo nunca estara vacio pero puede contener diferente numero de califiaciones
 #   Ejemplos:
 #     Input: [2, 2, 2, 2] Resultado: 2
-#     Input: [1, 5, 87, 45, 8, 8] Resultado: 25
+#     Input: [1, 5, 87, 45, 8, 8] Resultado:
 #     Input: [2,5,13,20,16,16,10] Resultado: 11
 #     Input: [1,2,15,15,17,11,12,17,17,14,13,15,6,11,8,7] Resultado: 11
+
+def promedio(*califiaciones)
+res = califiaciones.sum / califiaciones.length
+p res
+end
+

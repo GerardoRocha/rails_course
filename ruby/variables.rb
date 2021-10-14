@@ -1,8 +1,8 @@
 #Variables
 #Numerics
-integer = 1
-float = 3.2
-puts "Integer: #{integer}, Float: #{float}"
+i = 1
+f = 3.2
+puts "Integer: #{i}, Float: #{f}"
 
 #Strings
 #Para mas informacion acerca de los strings: https://ruby-doc.org/core-2.7.4/String.html
@@ -13,6 +13,7 @@ str = 'Rails Course'
 another_str = "Las dobles comillas sirven para interpolar el valor \
  de una variable Ejemplo: str=#{str}"
 #Algunos metodos importantes de los strings
+puts another_str
 puts str
 # => "Rails Course"
 puts str.downcase

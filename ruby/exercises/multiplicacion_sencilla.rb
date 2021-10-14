@@ -2,7 +2,7 @@
 # Crear una funcion en donde el input siempre sera un numero
 
 def mult(numero)
-  numero .even? ? numero * 8 : numero * 9
+  numero.even? ? numero * 8 : numero * 9
 end
 
 p mult(4)

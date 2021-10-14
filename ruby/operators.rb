@@ -29,7 +29,7 @@ puts 5 <= 5
 # => true
 
 #De asignacion
-c = 10
+c = 10  
 c += a # c = c + a
 c -= a # c = c - a
 #Esta sintaxis existe con todos los operadores aritmeticos

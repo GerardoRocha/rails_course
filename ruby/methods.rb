@@ -12,6 +12,7 @@ saludos_curso
 def sum(num1, num2)
   num1 + num2
 end
+
 sum(2, 2)
 
 #Las variables creadas dentro de los metodos solo estan vivas hasta el termino de la funcion
@@ -30,7 +31,7 @@ def greeting(name = 'World')
 end
 p greeting
 # => "Hello, World"
-pgreeting('Curso')
+p greeting('Curso')
 # => "Hello, Curso"
 #Existen algunas desventajas de esto, como recordar el numero de argumentos
 # def ejemplo(arg1 = 'juan', arg2)
