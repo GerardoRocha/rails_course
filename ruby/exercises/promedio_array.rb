@@ -11,3 +11,19 @@
 #     Input: [1, 5, 87, 45, 8, 8] Resultado: 25
 #     Input: [2,5,13,20,16,16,10] Resultado: 11
 #     Input: [1,2,15,15,17,11,12,17,17,14,13,15,6,11,8,7] Resultado: 11
+def average(values)
+    unless values.empty?
+    p "el promedio de #{values} es:"
+    values.sum / values.size
+    end
+end
+
+p average([])
+p average([2, 2, 2, 2])
+#Resultado: 2
+p average([1, 5, 87, 45, 8, 8])
+# Resultado: 25
+p average([2,5,13,20,16,16,10])
+# Resultado: 11
+p average([1,2,15,15,17,11,12,17,17,14,13,15,6,11,8,7])
+# Resultado: 11
