@@ -7,3 +7,11 @@
   # 'Madam'
 # Ejemplo invalido:
 # 'Hello'
+def pali?(xx)
+##  xx == xx.reverse ? true : false
+xx == xx.reverse
+end
+
+p pali?('oso')
+p pali?('jojo')
+p pali?('anita lava la tina')
