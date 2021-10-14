@@ -1,6 +1,6 @@
 #Methods
 #El nombre de los metodos tambien siguen snake_case
-#si no cuanta con parametros no se usan los parentesis
+#si no cuenta con parametros no se usan los parentesis
 def saludos_curso
   p 'Hola Rails Course'
 end
@@ -10,13 +10,16 @@ saludos_curso
 
 #los metodos pueden recibir parametros y van separados por comas(se usan parentesis)
 def sum(num1, num2)
+  return num2 if num1 == nil #guard clause
+
   num1 + num2
 end
 sum(2, 2)
 
 #Las variables creadas dentro de los metodos solo estan vivas hasta el termino de la funcion
+global = 'Nombre'
 def saludar(nombre)
-  str = "Hola #{nombre}"
+  str = "Hola #{global}"
 end
 saludar('Curso')
 p str
@@ -30,9 +33,10 @@ def greeting(name = 'World')
 end
 p greeting
 # => "Hello, World"
-pgreeting('Curso')
+p greeting('Curso')
 # => "Hello, Curso"
 #Existen algunas desventajas de esto, como recordar el numero de argumentos
+
 # def ejemplo(arg1 = 'juan', arg2)
 #   p "arg1: #{arg1} arg2: #{arg2}"
 # end
@@ -43,7 +47,7 @@ def saludos(*names)
   names.each { |name| p "Un saludo para #{name}" }
 end
 
-#Se pueden crear metodos con argumentos definidos con una llave
+#Se pueden crear metodos con argumentos definidos con una llave - keyword arguments
 def nombre_completo(nombre:, apellido:)
   "#{nombre} #{apellido}"
 end

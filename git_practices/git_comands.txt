@@ -1,0 +1,25 @@
+Mostrar el status del proyecto:
+git status
+
+Obtener cambios del repositorio remoto. El comando se debe de realizar en la rama de la cual se quieren los cambios:
+git pull
+
+Opciones para crear una branch:
+  -Opcion 1
+    git branch <branch-name>
+    git checkout <branch-name>
+  -Opcion 2
+    git checkout -b <branch-name>
+
+Para cambiar a una rama ya existente. (por ejemplo master)
+git checkout <branch-name>
+
+Añadir cambios al stage
+git add .
+git add <nombre-archivo>
+
+Crear un commit
+git commit -m 'Descripcion de lo que hace el codigo'
+
+Subir cambios al repositorio remoto
+git push <remote-name> <branch-name> Ejemplo: git push origin gdrm-branch

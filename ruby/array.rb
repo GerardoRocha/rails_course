@@ -14,9 +14,10 @@ puts ary[1]
 #Algunos metodos importantes son:
 p multi_type_array.compact
 # => [1, "String", true]
-p ary.include?('Hola')
+str = 'hola'
+p ary.include?(str)
 # => true
-p ary.push('Course')
+p ary.push('Course') # ary << 'Course'
 # => ["Hola", "Ruby", "on", "Rails", "Course"]
 p ary.sort
 # => ["Course", "Hola", "Rails", "Ruby", "on"]
