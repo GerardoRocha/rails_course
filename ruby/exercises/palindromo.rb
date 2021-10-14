@@ -7,3 +7,13 @@
   # 'Madam'
 # Ejemplo invalido:
 # 'Hello'
+
+def palindromo?(palabra)
+  palabra = palabra.downcase
+  palabra.reverse == palabra 
+end
+  
+p palindromo?('ana')
+p palindromo?('juan')
+p palindromo?('oro')
+p palindromo?('ANa')
