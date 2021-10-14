@@ -22,7 +22,7 @@ end
 unless false
   p 'Adios mundo'
 end
-# => "Hola Mundo"
+# => "Adios Mundo"
 unless true
   p 'Hola mundo'
 end

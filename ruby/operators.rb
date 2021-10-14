@@ -45,11 +45,16 @@ puts !true
 #Operador ternario
 variable = true ? 'Hola' : 'Mundo'
 puts variable
+# => "Hola"
 variable2 = false ? 'Hola' : 'Mundo'
 # => "Mundo"
 
 #Operadores de rango
 # ..
+# to_a
+# to_s
+# to_sym
+# to_f
 p (1..5).to_a
 # => [1, 2, 3, 4, 5]
 # ...
@@ -57,9 +62,13 @@ p (1...5).to_a
 # => [1, 2, 3, 4]
 #pueden ser creados con variables
 int = 5
+# puts int
+# p => puts int.inspect
 p (1..int).to_a
 # => [1, 2, 3, 4, 5]
 
 #dot operator
 #se utiliza para llamar un metodo de un object
 Class.methods
+# Class.class.superclass
+# Class.class => Class.superclass
