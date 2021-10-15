@@ -5,12 +5,15 @@
   # 'BCDF' => { a: 0, e: 0, i: 0, o: 0, u: 0 }
 
 def cnt_vocal(str)
-  vowell = {a:0, e:0, i: 0, o: 0, u: 0}
+  vowel = {a:0, e:0, i: 0, o: 0, u: 0}
+  str.downcase!
   str.chars.each do |chr|
-    next unless vowell.keys.include?(chr.to_sym)
-    vowell[chr.to_sym]+= 1
+    next unless vowel.keys.include?(chr.to_sym)
+    vowel[chr.to_sym]+= 1
   end
-  vowell
+  vowel
 end
 
-p cnt_vocal("hola")
+p cnt_vocal("hijo")
+p cnt_vocal("hIjo")
+p cnt_vocal("MURCIELAGO")
