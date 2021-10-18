@@ -1,2 +1,7 @@
 Nombre: Gerardo Rocha
 Hobbies: Jugar Futbol
+
+Nombre: Hector
+Hobbies: vivir
+Expectativas: aprender este marco de trabajo
+
