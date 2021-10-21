@@ -1,2 +1,8 @@
 Nombre: Gerardo Rocha
 Hobbies: Jugar Futbol
+
+
+Nombre: Polvo Ron
+Hobbies: Procrastinar
+
+Expectativas: Obtener el manejo elemental del lenguaje. 
